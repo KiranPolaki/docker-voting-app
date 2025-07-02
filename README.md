@@ -1,3 +1,5 @@
+### Tech Stack
+
 - A front-end web app in [Python](/vote) which lets you vote between two options
 - A [Redis](https://hub.docker.com/_/redis/) which collects new votes
 - A [.NET](/worker/) worker which consumes votes and stores them in…
@@ -14,5 +16,8 @@ kubectl create -f k8s-specifications/
 The vote web app is then available on port 31000 on each host of the cluster, the result web app is available on port 31001.
 
 To remove them, run:
-
 kubectl delete -f k8s-specifications/
+
+### We will be creating this dashboard by end of today
+
+![alt text](image.png)
